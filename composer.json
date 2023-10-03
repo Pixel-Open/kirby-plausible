@@ -22,5 +22,13 @@
     },
     "extra": {
         "installer-name": "plausible"
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^12.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
     }
 }

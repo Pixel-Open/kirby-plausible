@@ -1,6 +1,14 @@
 {
     "scripts": {
-      "dev": "npx -y kirbyup panel/index.js --watch",
-      "build": "npx -y kirbyup panel/index.js"
+        "dev": "npx -y kirbyup panel/index.js --watch",
+        "build": "npx -y kirbyup panel/index.js"
+    },
+    "devDependencies": {
+        "eslint": "^8.50.0",
+        "eslint-config-prettier": "^9.0.0",
+        "prettier": "^3.0.3"
+    },
+    "prettier": {
+        "tabWidth": 4
     }
-  }
+}

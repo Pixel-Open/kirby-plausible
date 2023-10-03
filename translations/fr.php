@@ -4,6 +4,5 @@ return [
     'pixelopen.plausible.panel.name' => 'Statistiques',
     'pixelopen.plausible.panel.title' => 'Statistiques du site',
     'pixelopen.plausible.panel.nolink' => 'Vous devez configurer la valeur de pixelopen.plausible.plausibleLink dans config.php',
+    'pixelopen.plausible.panel.noiframe' => 'Quelque chose semble bloquer l\'affichage de l\'iframe. Veuillez vérifier les extensions de votre navigateur (AdBlock, uBlock...).',
 ];
-
-?>
