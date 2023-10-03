@@ -21,6 +21,7 @@ composer require pixelopen/kirby-plausible
 ```
 
 ### Git Submodule
+
 You can add the plugin as a Git submodule.
 
     $ cd your/project/root
