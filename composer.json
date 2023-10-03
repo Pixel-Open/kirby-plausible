@@ -21,7 +21,7 @@
         "getkirby/cms": "^3.6.0||^4.0.0"
     },
     "extra": {
-        "installer-name": "plausible"
+        "installer-name": "kirby-plausible"
     },
     "require-dev": {
         "symplify/easy-coding-standard": "^12.0"
