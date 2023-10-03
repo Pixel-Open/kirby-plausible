@@ -12,7 +12,7 @@ This plugin is free
 
 ### Download
 
-[Download the files](https://github.com/Pixel-Open/kirby-plausible/releases/tag/1.0.1.zip) and place them inside `site/plugins/kirby-plausible`.
+[Download the files](https://github.com/Pixel-Open/kirby-plausible/releases/tag/1.0.2.zip) and place them inside `site/plugins/kirby-plausible`.
 
 ### Composer
 
