@@ -1,5 +1,9 @@
 # Plausible plugin
 
+![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Open/kirby-plausible?style=for-the-badge)
+
+[![Dependency](https://img.shields.io/badge/kirby-3.6-cca000.svg?style=for-the-badge)](https://getkirby.com/)
+
 A plugin for [Kirby CMS](http://getkirby.com) to add a new panel area to manage your website activity statistics.
 
 This plugin take a lot of inspiration on this plugin: https://github.com/floriankarsten/kirby-plausible

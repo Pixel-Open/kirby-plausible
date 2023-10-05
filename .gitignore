@@ -6,9 +6,6 @@
 .settings
 config.codekit
 
-index.js
-index.css
-
 ## libs
 /bower_components/
 /node_modules/
