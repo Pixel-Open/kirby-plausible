@@ -1,6 +1,5 @@
 {
     "name": "pixelopen/kirby-plausible",
-    "version": "1.0.1",
     "type": "kirby-plugin",
     "description": "A plugin for Kirby CMS to add statistic from plausible.io",
     "homepage": "https://github.com/Pixel-Open/kirby-plausible",
