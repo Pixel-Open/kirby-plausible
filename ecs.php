@@ -9,8 +9,8 @@ use Symplify\EasyCodingStandard\ValueObject\Set\SetList;
 return function (ECSConfig $ecsConfig): void {
     $ecsConfig->paths([
         __DIR__ . '/index.php',
+        __DIR__ . '/i18n.php',
         __DIR__ . '/snippets',
-        __DIR__ . '/translations',
     ]);
 
     // this way you add a single rule
