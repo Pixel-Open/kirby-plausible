@@ -1,10 +1,16 @@
-# Plausible plugin
+<h1 align="center">
+Plausible Bundle for Kirby CMS
+</h1>
+<div align="center">
+This bundle allows you to integrate Plausible analytics statistics into the Kirby CMS administration interface via an embedded iframe.
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Open/kirby-plausible?style=for-the-badge)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.2-green)](https://php.net/)
+[![Minimum Sulu Version](https://img.shields.io/badge/kirby-%3E%3D%204.0-green)](https://getkirby.com/)
+[![GitHub release](https://img.shields.io/github/v/release/Pixel-Open/kirby-plausible)](https://github.com/Pixel-Open/kirby-plausible/releases)
 
-[![Dependency](https://img.shields.io/badge/kirby-3.6-cca000.svg?style=for-the-badge)](https://getkirby.com/)
+</div>
 
-A plugin for [Kirby CMS](http://getkirby.com) to add a new panel area to manage your website activity statistics.
+![screenshot.png](screenshot.png)
 
 This plugin take a lot of inspiration on this plugin: https://github.com/floriankarsten/kirby-plausible
 
