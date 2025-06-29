@@ -1,5 +1,5 @@
 <template>
-    <k-inside>
+    <k-panel-inside>
         <k-view class="k-plausible-view">
             <k-header>{{ $t("pixelopen.plausible.panel.title") }}</k-header>
             <iframe
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </k-view>
-    </k-inside>
+    </k-panel-inside>
 </template>
 
 <script>
