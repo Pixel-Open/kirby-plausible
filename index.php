@@ -1,8 +1,8 @@
 <?php
 
-Kirby::plugin('pixelopen/plausible', [
+Kirby::plugin('pixelopen/kirby-plausible', [
     'snippets' => [
-        'plausible' => __DIR__ .'/snippets/plausible.php'
+        'plausible' => __DIR__ . '/snippets/plausible.php',
     ],
     'areas' => [
         'plausible' => function ($kirby) {
@@ -20,17 +20,14 @@ Kirby::plugin('pixelopen/plausible', [
                                 'title' => t('pixelopen.plausible.panel.title'),
                                 'props' => [
                                     'plausibleLink' => option('pixelopen.plausible.plausibleLink'),
-                                    'height_iframe' => option('pixelopen.plausible.height_iframe') ?? 2000
-                                ]
+                                    'height_iframe' => option('pixelopen.plausible.height_iframe') ?? 2000,
+                                ],
                             ];
-                        }
-                    ]
-                ]
+                        },
+                    ],
+                ],
             ];
-        }
+        },
     ],
-    'translations' => [
-        'en' => require __DIR__ . '/translations/en.php',
-        'fr' => require __DIR__ . '/translations/fr.php',
-    ],
+    'translations' => require __DIR__ . '/i18n.php',
 ]);

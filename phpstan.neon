@@ -1,0 +1,11 @@
+parameters:
+    level: 6
+    paths:
+        - index.php
+        - i18n.php
+        - snippets/
+    ignoreErrors:
+        - '#Function parse_url invoked with 1 parameter, 2 required#'
+        - '#Call to function option\(\) with no typehint specified#'
+    treatPhpDocTypesAsCertain: false
+    checkMissingIterableValueType: false

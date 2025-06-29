@@ -1,6 +1,6 @@
 import Plausible from "./components/Plausible.vue";
 
-panel.plugin("pixelopen/plausible", {
+panel.plugin("pixelopen/kirby-plausible", {
     components: {
         plausible: Plausible,
     },
