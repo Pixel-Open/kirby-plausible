@@ -1,5 +1,5 @@
 <template>
-    <k-inside>
+    <k-panel-inside>
         <k-view class="k-plausible-view">
             <k-header>{{ $t("pixelopen.plausible.panel.title") }}</k-header>
             <iframe
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </k-view>
-    </k-inside>
+    </k-panel-inside>
 </template>
 
 <script>
@@ -81,7 +81,7 @@ export default {
             if (!this.isValidPlausibleLink) return '';
             
             const separator = this.plausibleLink.includes('?') ? '&' : '?';
-            return `${this.plausibleLink}${separator}embed=true&theme=light&background=%23efefef`;
+            return `${this.plausibleLink}${separator}embed=true&theme=system`;
         },
         iframeHeight() {
             return `${this.height_iframe}px`;
@@ -118,10 +118,5 @@ export default {
 
 .k-plausible-error-icon .k-icon {
     color: var(--color-red);
-}
-
-.plausible-iframe {
-    border: 1px solid var(--color-gray-200);
-    border-radius: var(--rounded);
 }
 </style>
